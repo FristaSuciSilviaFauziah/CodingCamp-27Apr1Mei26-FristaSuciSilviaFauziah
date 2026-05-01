@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Expense Tracker</h1>
+
+<h2>Total: Rp <span id="total">0</span></h2>
+
+<form id="form">
+  <input type="text" id="name" placeholder="Nama item">
+  <input type="number" id="amount" placeholder="Jumlah">
+
+  <select id="category">
+    <option value="Food">Food</option>
+    <option value="Transport">Transport</option>
+    <option value="Fun">Fun</option>
+  </select>
+
+  <button type="submit">Tambah</button>
+</form>
+
+<ul id="list"></ul>
+
+<canvas id="chart"></canvas>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

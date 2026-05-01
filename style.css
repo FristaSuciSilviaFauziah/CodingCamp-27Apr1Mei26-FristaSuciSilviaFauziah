@@ -1,0 +1,12 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+form input, form select {
+  margin: 5px;
+}
+
+li {
+  margin: 5px 0;
+}
